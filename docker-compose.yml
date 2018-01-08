@@ -1,0 +1,7 @@
+version: '2'
+
+services:
+  Decoding:
+      image: com.huawei/decoding:1.0
+      ports:
+        - "10005:10005"
